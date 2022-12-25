@@ -15,13 +15,13 @@
 可查看前8名隊伍的排名和戰績
 * 在任一狀態輸入"bye"會讓機器人回到初始狀態
 ## FSM:
-* `user`
-* `score`
-* `games`
-  * `game_score`
-* `team_list`
-* `team`
-  * `team_games`
-* `team_roster`
-  * `ranking`
-* `endstate`
+* `user`初始狀態
+* `score`主選單
+* `games`使用者選擇比賽的輪次
+  * `game_score`顯示比分，並重新讓使用者選擇輪次
+* `team_list`使用者可輸入球隊縮寫
+* `team`顯示球隊選單，包括比分和陣容(可輸入球隊為8強之球隊)
+  * `team_games`顯示球隊比分
+  * `team_roster`顯示球隊陣容(僅有4強球隊)
+* `ranking`顯示8強球隊戰績和排名
+* `endstate`結束狀態，回自動回到初始狀態
