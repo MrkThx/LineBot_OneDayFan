@@ -18,10 +18,10 @@
 * `user`
 * `score`
 * `games`
- * `game_score`
+ ** `game_score`
 * `team_list`
 * `team`
- * `team_games`
+ ** `team_games`
 * `team_roster`
- * `ranking`
+ ** `ranking`
 * `endstate`
