@@ -15,13 +15,13 @@
 可查看前8名隊伍的排名和戰績
 * 在任一狀態輸入"bye"會讓機器人回到初始狀態
 ### FSM:
-> `user`
-> `score`
-> `games`
->> `game_score`
-> `team_list`
-> `team`
->> `team_games`
->> `team_roster`
-> `ranking`
-> `endstate`
+* `user`
+* `score`
+* `games`
+ * `game_score`
+* `team_list`
+* `team`
+ * `team_games`
+* `team_roster`
+ * `ranking`
+* `endstate`
